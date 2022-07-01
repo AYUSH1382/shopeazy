@@ -38,14 +38,14 @@ export default function HandMade({hand}) {
                 <img src={hand.image} className="image-fluid" style={{height:'200px', width:'200px'}} alt=""/>
             </div>
             <div className="flex-container">
-                <div className='w-100 m-1'>
+                {/* <div className='w-100 m-1'>
                 <p>Varients</p>
                 <select className='form-control' value={varient} onChange={(e)=> {setvarient(e.target.value)}}>
                     {hand.varients.map(varient=>{
                         return <option value={varient}>{varient}</option>
                     })}
                 </select>
-                </div>
+                </div> */}
                 <div className='w-100 m-1'>
                 <p>Quantity</p>
                 <select className='form-control' value={quantity} onChange={(e)=>{setquantity(e.target.value)}}>

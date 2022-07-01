@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { logoutUser } from "../actions/userActions";
+// import loginvid from '../assets/loginvid.mp4'
 
 
 export default function Navbar() {
@@ -10,10 +11,28 @@ export default function Navbar() {
   const dispatch = useDispatch()
   return (
     <div>
+      {/* <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%,-50%)",
+          zIndex:"-1"
+        }}
+        >
+          <source src={loginvid} type="video/mp4"/>
+        
+      </video> */}
       <nav className="navbar navbar-expand-lg shadow-lg p-3 mb-5 bg-white rounded">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            HandY
+            KaaGaZ
           </a>
           <button
             className="navbar-toggler"

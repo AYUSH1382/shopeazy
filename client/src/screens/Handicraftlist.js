@@ -20,7 +20,7 @@ export default function Handicraftlist() {
 
     return (
         <div>
-            <h2>Handicraft List</h2>
+            <h2>Product List</h2>
             {loading && (<Loading/>)}
             {error && (<Error error='Something went wrong'/>)}
             <table className='table table-responsive-sm'>

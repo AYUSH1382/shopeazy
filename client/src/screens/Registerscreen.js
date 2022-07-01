@@ -4,6 +4,7 @@ import { registerUser } from '../actions/userActions'
 import Loading from '../components/Loading'
 import Error from '../components/Error'
 import Success from '../components/Success'
+import registervid from '../assets/registervid.mp4'
 
 
 export default function Registerscreen() {
@@ -36,6 +37,24 @@ export default function Registerscreen() {
 
     return (
         <div>
+            <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%,-50%)",
+          zIndex:"-1"
+        }}
+        >
+          <source src={registervid} type="video/mp4"/>
+        
+      </video>
             <div className="row justify-content-center mt-5">
                 <div className="col-md-5 mt-5 text-left shadow p-3 mb-5 bg-white rounded" style={{ textAlign: 'left' }}>
                     

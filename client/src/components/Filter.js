@@ -18,14 +18,20 @@ export default function Filter() {
                 <div className="col-md-3">
                     <select className="form-control w-100 mt-2"  value={category} onChange={(e)=>{setcategory(e.target.value)}} >
                         <option value="all">All</option>
-                        
-                        <option value="homedecor">Home Decor</option>
-                        <option value="kitchen">Kitchen</option>
-                        <option value="beauty">Beauty</option>
-                        
                         <option value="stationary">Stationary</option>
+                        {/* <option value="homedecor">Home Decor</option>
+                        <option value="kitchen">Kitchen</option>
+                        <option value="beauty">Beauty</option> */}
+                        
+                        {/* <option value="stationary">Stationary</option>
                         <option value="clothing">Clothing</option>
-                        <option value="toys">Toys</option>
+                        <option value="toys">Toys</option> */}
+                        <option value="art">Art Supplies</option>
+                        <option value="craft">Craft materials</option>
+                        <option value="desk">Desk Tools</option>
+                        <option value="snacks">Snacks</option>
+                        <option value="bath">Bath supplies</option>
+
 
                     </select>
                 </div>

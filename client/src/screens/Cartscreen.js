@@ -5,6 +5,7 @@ import { deleteFromCart } from '../actions/cartActions'
 import Checkout from '../components/Checkout'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import cartscr from '../assets/cartscr.mp4';
 
 export default function Cartscreen() {
 
@@ -17,7 +18,24 @@ export default function Cartscreen() {
 
     return (
         <div>
-
+            <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%,-50%)",
+          zIndex:"-1"
+        }}
+        >
+          <source src={cartscr} type="video/mp4"/>
+        
+      </video>
             <div className="row justify-content-center p-2" data-aos='fade-up'>
                 <div className="col-md-6">
                     <h2 style={{ fontSize: '40px' }}>My Cart</h2>

@@ -5,6 +5,7 @@ import Error from '../components/Error'
 import Filter from '../components/Filter'
 import HandMade from '../components/HandMade'
 import Loading from '../components/Loading'
+// import loginvid from '../assets/loginvid.mp4'
 
 // import hands from '../Handidata'
 
@@ -24,6 +25,24 @@ export default function Homescreen() {
 
     return (
         <div>
+            {/* <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%,-50%)",
+          zIndex:"-1"
+        }}
+        >
+          <source src={loginvid} type="video/mp4"/>
+        
+      </video> */}
             <Filter/>
             <div className="row justify-content-center">
                 

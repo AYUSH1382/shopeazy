@@ -13,6 +13,7 @@ import {useDispatch , useSelector} from 'react-redux'
 import { loginUser } from "../actions/userActions";
 import Loading from "../components/Loading";
 import Error from "../components/Error";
+import loginvid from "../assets/loginvid.mp4";
 // import AOS from 'aos'
 // import 'aos/dist/aos.css';
 
@@ -53,7 +54,27 @@ export default function Loginscreen() {
 
   return (
     <div className='login'>
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%,-50%)",
+          zIndex:"-1"
+        }}
+        >
+          <source src={loginvid} type="video/mp4"/>
+        
+      </video>
+     
       <div className="row justify-content-center m-2" >
+      
         <div className="col-md-4 card p-3 shadow p-3 mb-5 bg-white rounded" style={{ marginTop: "100px" }}>
           <div className="div">
             <h1 className="text-center m-3" style={{display: "inline"}}>LOGIN</h1>

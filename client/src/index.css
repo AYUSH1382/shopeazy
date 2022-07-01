@@ -31,8 +31,8 @@ h1{
 }
 
 .btn{
-  background-color:red !important;
-  color:white !important;
+  background-color:black !important;
+  color:yellowgreen !important;
 }
 
 select{
@@ -78,3 +78,4 @@ input{
 td,th,tr{
   text-align: left;
 }
+
