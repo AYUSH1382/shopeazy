@@ -33,7 +33,7 @@ export default function Adminscreen() {
                 <li>
                     <Link to={'/admin/userslist'}>Users List</Link>
                 </li>
-                <li><Link to={'/admin/handicraftlist'}>Handicraft List</Link></li>
+                <li><Link to={'/admin/handicraftlist'}>Product List</Link></li>
                 <li><Link to={'/admin/addhandicraft'}>Add new Product</Link></li>
                 <li><Link to={'/admin/orderslist'}>Orders List</Link></li>
                 
