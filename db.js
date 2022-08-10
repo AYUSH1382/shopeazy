@@ -8,7 +8,7 @@ mongoose.connect(mongoURL ,{useUnifiedTopology : true, useNewUrlParser:true})
 var db = mongoose.connection
 
 db.on('connected',()=>{
-    console.log(`We're Handy`);
+    console.log(`Shopezy is on`);
 
 })
 
