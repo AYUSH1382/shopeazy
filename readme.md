@@ -17,7 +17,7 @@ The E-commerce platform provides a wide range of features to both the client and
 1. Create an account on `Stripe`, a payment gateway site.
 2. Enter the stripe key in the `checkout.js` file.
 
-###Connecting to MongoDB
+### Connecting to MongoDB
 1. Create an account on MongoDB Atlas
 2. Enter the mongodb connection id
 
