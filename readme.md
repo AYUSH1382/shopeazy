@@ -44,3 +44,7 @@ also remove any item they wish to omit.
 The admin’s side - An alert of a new order is displayed once the booking is done, and all its details 
 will be generated. This order can be kept track of and updated according to the discretion of the 
 shopkeeper
+
+## Deployed Link 
+
+Visit the delpoyed site on Heroku to checkout its functionality: [ShopEazy](https://shopezy.herokuapp.com/)
